@@ -1,0 +1,334 @@
+object Frm_Principal: TFrm_Principal
+  Left = 0
+  Top = 0
+  Caption = 'Pokemons'
+  ClientHeight = 347
+  ClientWidth = 594
+  Fill.Kind = Solid
+  Position = MainFormCenter
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object ListView: TListView
+    ItemAppearanceClassName = 'TDynamicAppearance'
+    ItemEditAppearanceClassName = 'TDynamicAppearance'
+    HeaderAppearanceClassName = 'TListHeaderObjects'
+    FooterAppearanceClassName = 'TListHeaderObjects'
+    ItemSpaces.Left = 0.000000000000000000
+    ItemSpaces.Right = 0.000000000000000000
+    Align = Client
+    Size.Width = 594.000000000000000000
+    Size.Height = 282.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    ItemAppearance.ItemHeight = 200
+    ItemAppearanceObjects.ItemObjects.ObjectsCollection = <
+      item
+        AppearanceObjectName = 'number'
+        AppearanceClassName = 'TTextObjectAppearance'
+        Appearance.Width = 25.000000000000000000
+        Appearance.Height = 25.000000000000000000
+        Appearance.PlaceOffset.X = 50.000000000000000000
+      end
+      item
+        AppearanceObjectName = 'name'
+        AppearanceClassName = 'TTextObjectAppearance'
+        Appearance.TextAlign = Leading
+        Appearance.Width = 97.000000000000000000
+        Appearance.Height = 25.000000000000000000
+        Appearance.PlaceOffset.X = 122.000000000000000000
+      end
+      item
+        AppearanceObjectName = 'species'
+        AppearanceClassName = 'TTextObjectAppearance'
+        Appearance.TextAlign = Leading
+        Appearance.Width = 89.000000000000000000
+        Appearance.Height = 25.000000000000000000
+        Appearance.PlaceOffset.X = 64.000000000000000000
+        Appearance.PlaceOffset.Y = 48.000000000000000000
+      end
+      item
+        AppearanceObjectName = 'types'
+        AppearanceClassName = 'TTextObjectAppearance'
+        Appearance.TextAlign = Leading
+        Appearance.Width = 250.000000000000000000
+        Appearance.Height = 25.000000000000000000
+        Appearance.PlaceOffset.X = 64.000000000000000000
+        Appearance.PlaceOffset.Y = 96.000000000000000000
+      end
+      item
+        AppearanceObjectName = 'abilities'
+        AppearanceClassName = 'TTextObjectAppearance'
+        Appearance.TextAlign = Leading
+        Appearance.Width = 250.000000000000000000
+        Appearance.Height = 25.000000000000000000
+        Appearance.PlaceOffset.X = 76.000000000000000000
+        Appearance.PlaceOffset.Y = 144.000000000000000000
+      end
+      item
+        AppearanceObjectName = 'eggGroups'
+        AppearanceClassName = 'TTextObjectAppearance'
+        Appearance.TextAlign = Leading
+        Appearance.Width = 150.000000000000000000
+        Appearance.Height = 25.000000000000000000
+        Appearance.PlaceOffset.X = 96.000000000000000000
+        Appearance.PlaceOffset.Y = 120.000000000000000000
+      end
+      item
+        AppearanceObjectName = 'gender'
+        AppearanceClassName = 'TTextObjectAppearance'
+        Appearance.Width = 45.000000000000000000
+        Appearance.Height = 25.000000000000000000
+        Appearance.PlaceOffset.X = 274.000000000000000000
+      end
+      item
+        AppearanceObjectName = 'height'
+        AppearanceClassName = 'TTextObjectAppearance'
+        Appearance.Width = 33.000000000000000000
+        Appearance.Height = 25.000000000000000000
+        Appearance.PlaceOffset.X = 466.000000000000000000
+      end
+      item
+        AppearanceObjectName = 'weight'
+        AppearanceClassName = 'TTextObjectAppearance'
+        Appearance.Width = 35.000000000000000000
+        Appearance.Height = 25.000000000000000000
+        Appearance.PlaceOffset.X = 48.000000000000000000
+        Appearance.PlaceOffset.Y = 24.000000000000000000
+      end
+      item
+        AppearanceObjectName = 'family'
+        AppearanceClassName = 'TTextObjectAppearance'
+        Appearance.TextAlign = Leading
+        Appearance.Width = 450.000000000000000000
+        Appearance.Height = 25.000000000000000000
+        Appearance.PlaceOffset.X = 64.000000000000000000
+        Appearance.PlaceOffset.Y = 72.000000000000000000
+      end
+      item
+        AppearanceObjectName = 'starter'
+        AppearanceClassName = 'TTextObjectAppearance'
+        Appearance.Width = 25.000000000000000000
+        Appearance.Height = 25.000000000000000000
+        Appearance.PlaceOffset.X = 378.000000000000000000
+      end
+      item
+        AppearanceObjectName = 'legendary'
+        AppearanceClassName = 'TTextObjectAppearance'
+        Appearance.Width = 41.000000000000000000
+        Appearance.Height = 25.000000000000000000
+        Appearance.PlaceOffset.X = 546.000000000000000000
+      end
+      item
+        AppearanceObjectName = 'mythical'
+        AppearanceClassName = 'TTextObjectAppearance'
+        Appearance.Width = 33.000000000000000000
+        Appearance.Height = 25.000000000000000000
+        Appearance.PlaceOffset.X = 260.000000000000000000
+        Appearance.PlaceOffset.Y = 24.000000000000000000
+      end
+      item
+        AppearanceObjectName = 'ultraBeast'
+        AppearanceClassName = 'TTextObjectAppearance'
+        Appearance.Width = 65.000000000000000000
+        Appearance.Height = 25.000000000000000000
+        Appearance.PlaceOffset.X = 140.000000000000000000
+        Appearance.PlaceOffset.Y = 24.000000000000000000
+      end
+      item
+        AppearanceObjectName = 'mega'
+        AppearanceClassName = 'TTextObjectAppearance'
+        Appearance.Width = 41.000000000000000000
+        Appearance.Height = 25.000000000000000000
+        Appearance.PlaceOffset.X = 452.000000000000000000
+        Appearance.PlaceOffset.Y = 24.000000000000000000
+      end
+      item
+        AppearanceObjectName = 'gen'
+        AppearanceClassName = 'TTextObjectAppearance'
+        Appearance.Width = 33.000000000000000000
+        Appearance.Height = 25.000000000000000000
+        Appearance.PlaceOffset.X = 356.000000000000000000
+        Appearance.PlaceOffset.Y = 24.000000000000000000
+      end
+      item
+        AppearanceObjectName = 'sprite'
+        AppearanceClassName = 'TImageObjectAppearance'
+        Appearance.ScalingMode = Stretch
+        Appearance.Width = 73.000000000000000000
+        Appearance.Height = 73.000000000000000000
+        Appearance.PlaceOffset.X = 512.000000000000000000
+        Appearance.PlaceOffset.Y = 96.000000000000000000
+      end
+      item
+        AppearanceObjectName = 'description'
+        AppearanceClassName = 'TTextObjectAppearance'
+        Appearance.Font.StyleExt = {00040000000200000004000000}
+        Appearance.WordWrap = True
+        Appearance.Width = 785.000000000000000000
+        Appearance.Height = 25.000000000000000000
+        Appearance.PlaceOffset.X = -8.000000000000000000
+        Appearance.PlaceOffset.Y = 168.000000000000000000
+      end
+      item
+        AppearanceObjectName = 'lblnumber'
+        AppearanceClassName = 'TTextObjectAppearance'
+        Appearance.Font.StyleExt = {00070000000000000004000000}
+        Appearance.Width = 49.000000000000000000
+        Appearance.Height = 25.000000000000000000
+        Appearance.PlaceOffset.X = 2.000000000000000000
+      end
+      item
+        AppearanceObjectName = 'lblname'
+        AppearanceClassName = 'TTextObjectAppearance'
+        Appearance.Font.StyleExt = {00070000000000000004000000}
+        Appearance.Width = 49.000000000000000000
+        Appearance.Height = 25.000000000000000000
+        Appearance.PlaceOffset.X = 74.000000000000000000
+      end
+      item
+        AppearanceObjectName = 'lblspecies'
+        AppearanceClassName = 'TTextObjectAppearance'
+        Appearance.Font.StyleExt = {00070000000000000004000000}
+        Appearance.Width = 65.000000000000000000
+        Appearance.Height = 25.000000000000000000
+        Appearance.PlaceOffset.Y = 48.000000000000000000
+      end
+      item
+        AppearanceObjectName = 'lblgender'
+        AppearanceClassName = 'TTextObjectAppearance'
+        Appearance.Font.StyleExt = {00070000000000000004000000}
+        Appearance.Width = 57.000000000000000000
+        Appearance.Height = 25.000000000000000000
+        Appearance.PlaceOffset.X = 218.000000000000000000
+      end
+      item
+        AppearanceObjectName = 'lblstarter'
+        AppearanceClassName = 'TTextObjectAppearance'
+        Appearance.Font.StyleExt = {00070000000000000004000000}
+        Appearance.Width = 61.000000000000000000
+        Appearance.Height = 25.000000000000000000
+        Appearance.PlaceOffset.X = 318.000000000000000000
+      end
+      item
+        AppearanceObjectName = 'lblheight'
+        AppearanceClassName = 'TTextObjectAppearance'
+        Appearance.Font.StyleExt = {00070000000000000004000000}
+        Appearance.Width = 65.000000000000000000
+        Appearance.Height = 25.000000000000000000
+        Appearance.PlaceOffset.X = 402.000000000000000000
+      end
+      item
+        AppearanceObjectName = 'lbllegendary'
+        AppearanceClassName = 'TTextObjectAppearance'
+        Appearance.Font.StyleExt = {00070000000000000004000000}
+        Appearance.Width = 49.000000000000000000
+        Appearance.Height = 25.000000000000000000
+        Appearance.PlaceOffset.X = 498.000000000000000000
+      end
+      item
+        AppearanceObjectName = 'lblweight'
+        AppearanceClassName = 'TTextObjectAppearance'
+        Appearance.Font.StyleExt = {00070000000000000004000000}
+        Appearance.Width = 49.000000000000000000
+        Appearance.Height = 25.000000000000000000
+        Appearance.PlaceOffset.Y = 24.000000000000000000
+      end
+      item
+        AppearanceObjectName = 'lblultrabeast'
+        AppearanceClassName = 'TTextObjectAppearance'
+        Appearance.Font.StyleExt = {00070000000000000004000000}
+        Appearance.Width = 57.000000000000000000
+        Appearance.Height = 25.000000000000000000
+        Appearance.PlaceOffset.X = 84.000000000000000000
+        Appearance.PlaceOffset.Y = 24.000000000000000000
+      end
+      item
+        AppearanceObjectName = 'lblmythical'
+        AppearanceClassName = 'TTextObjectAppearance'
+        Appearance.Font.StyleExt = {00070000000000000004000000}
+        Appearance.Width = 57.000000000000000000
+        Appearance.Height = 25.000000000000000000
+        Appearance.PlaceOffset.X = 204.000000000000000000
+        Appearance.PlaceOffset.Y = 24.000000000000000000
+      end
+      item
+        AppearanceObjectName = 'lblgen'
+        AppearanceClassName = 'TTextObjectAppearance'
+        Appearance.Font.StyleExt = {00070000000000000004000000}
+        Appearance.Width = 65.000000000000000000
+        Appearance.Height = 25.000000000000000000
+        Appearance.PlaceOffset.X = 292.000000000000000000
+        Appearance.PlaceOffset.Y = 24.000000000000000000
+      end
+      item
+        AppearanceObjectName = 'lblmega'
+        AppearanceClassName = 'TTextObjectAppearance'
+        Appearance.Font.StyleExt = {00070000000000000004000000}
+        Appearance.Width = 65.000000000000000000
+        Appearance.Height = 25.000000000000000000
+        Appearance.PlaceOffset.X = 388.000000000000000000
+        Appearance.PlaceOffset.Y = 24.000000000000000000
+      end
+      item
+        AppearanceObjectName = 'lblfamily'
+        AppearanceClassName = 'TTextObjectAppearance'
+        Appearance.Font.StyleExt = {00070000000000000004000000}
+        Appearance.Width = 65.000000000000000000
+        Appearance.Height = 25.000000000000000000
+        Appearance.PlaceOffset.Y = 72.000000000000000000
+      end
+      item
+        AppearanceObjectName = 'lbltypes'
+        AppearanceClassName = 'TTextObjectAppearance'
+        Appearance.Font.StyleExt = {00070000000000000004000000}
+        Appearance.Width = 57.000000000000000000
+        Appearance.Height = 25.000000000000000000
+        Appearance.PlaceOffset.X = 7.000000000000000000
+        Appearance.PlaceOffset.Y = 96.000000000000000000
+      end
+      item
+        AppearanceObjectName = 'lbleggGroups'
+        AppearanceClassName = 'TTextObjectAppearance'
+        Appearance.Font.StyleExt = {00070000000000000004000000}
+        Appearance.Width = 89.000000000000000000
+        Appearance.Height = 25.000000000000000000
+        Appearance.PlaceOffset.X = 6.000000000000000000
+        Appearance.PlaceOffset.Y = 120.000000000000000000
+      end
+      item
+        AppearanceObjectName = 'lblabilities'
+        AppearanceClassName = 'TTextObjectAppearance'
+        Appearance.Font.StyleExt = {00070000000000000004000000}
+        Appearance.Width = 68.000000000000000000
+        Appearance.Height = 25.000000000000000000
+        Appearance.PlaceOffset.X = 6.000000000000000000
+        Appearance.PlaceOffset.Y = 144.000000000000000000
+      end>
+    ItemAppearanceObjects.ItemEditObjects.ObjectsCollection = <
+      item
+        AppearanceObjectName = 'Text1'
+        AppearanceClassName = 'TTextObjectAppearance'
+      end>
+    ItemAppearanceObjects.FooterObjects.Text.Width = 617.000000000000000000
+    ItemAppearanceObjects.FooterObjects.Text.Height = 16.000000000000000000
+    ItemAppearanceObjects.FooterObjects.Text.PlaceOffset.X = -8.000000000000000000
+    ItemAppearanceObjects.FooterObjects.Text.PlaceOffset.Y = 36.000000000000000000
+    CanSwipeDelete = False
+    ShowSelection = False
+  end
+  object Button1: TButton
+    Align = Top
+    StyledSettings = [Family]
+    Size.Width = 594.000000000000000000
+    Size.Height = 65.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Text = 'Carregar Dados'
+    TextSettings.Font.Size = 16.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TextSettings.FontColor = claBrown
+    OnClick = Button1Click
+  end
+end
